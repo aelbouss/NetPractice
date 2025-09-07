@@ -14,8 +14,9 @@ netpractice is an important project that will introduce you to the word wide of 
 - what is subnetting
 
 <details>
-  <summary>### what is a network :</summary>
+  <summary>what is a network :</summary>
 a network is a system of interconnected devices like computers that can connect to  each other and share data , this connection allows for information exchange and access shared rousources like (printers, files , applications), networks can range from small like home or office network to  large networks like the internet .
+
 #### how the devices connected to each other in a network :
 to build a network we nedd at least two devices and medium transmission either wired or wireless .
 #### small network two devices connected via wire ethernet cable.
