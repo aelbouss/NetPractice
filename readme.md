@@ -73,9 +73,11 @@ the  osi (open system  interconnection)  model  is a  set  of  rules  that expla
 **the  layers  of  the  OSI (open system interconnection) :**
 
 **Application Layer :**
+
 the application  layer is  the  seventh layer it  plays  as an  interface  between  the  user end user applications  and  the  network  services because  it  provides  the  protocols  like  HTTP , FTP , SMTP  that  allow  the software to send  and receive  data . facilitating activities like  web browsing  emails an file  transfer .
 
 **Session Layer :**
+
 the session  layer  is  the  fifth layer  and  it is responsible for 4 core processes 
 - select the transmission or (dialog) mode : (simplex , half duplex  , full duplex).
 - opens the canal and sets rules for it when  it ends and when it starts .
@@ -83,19 +85,23 @@ the session  layer  is  the  fifth layer  and  it is responsible for 4 core proc
 - session management .
 
 **Transport Lyaer :**
+
 the application  layer is  the  seventh layer it  plays  as an  interface  between  the  user end user applications  and  the  network  services because  it  provides  the  protocols  like  HTTP , FTP , SMTP  that  allow  the software to send  and receive  data . facilitating activities like  web browsing  emails an file  transfer .
 
 **Network Layer :**
+
 the  network  layer is  the third layer  it  had  two  core  jobs
 - the logical  addressing  : it  takes  the data  segment  that comes  from the  transport layer  and it  adds the  sender ip  and  the receiver  ip  and  it  build  the  packet  which  is  the network  unit .
 - the  routing  : it  decides  the  best  path that  the  data  must go trough
 
 
 **Data Link Layer :**
+
 the data link layer  is  the second  layer  in the  osi  model  it takes  the  packet  and  adds to it  the sender’s mac address and  the  receiver’s mac address and  it  builds  the  frame  and all  that  called  the  frame  encapsulation . and  the opposite  if  the opposite  way .
 - it  also  check  for  errors and  it  correct it  .
 
 **Physical Layer :**
+
 the  physical  layer  is  the  first  layer  of the  osi  model .
 - we  said  before  that the  transport layer  creates  the packet and  the  data link layer  creates  the  frame which  is  a bunch  of zeros and  ones so  the  physical  layer  transform  the  bits  of  the  frame  into  signals that the  transmission media  will understand. so  it will be  either  electrical  signals  (Ethernet  cable) , radio signals (wireless connection) , optic  signals  (optic  transmission) .
 
