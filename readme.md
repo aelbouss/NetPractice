@@ -97,8 +97,7 @@ the  network  layer is  the third layer  it  had  two  core  jobs
 
 **Data Link Layer :**
 
-the data link layer  is  the second  layer  in the  osi  model  it takes  the  packet  and  adds to it  the sender’s mac address and  the  receiver’s mac address and  it  builds  the  frame  and all  that  called  the  frame  encapsulation . and  the opposite  if  the opposite  way .
-- it  also  check  for  errors and  it  correct it  .
+the data link layer  is  the second  layer  in the  osi  model  it takes  the  packet  and  adds to it  the sender’s mac address and  the  receiver’s mac address and  it  builds  the  frame  and all  that  called  the  frame  encapsulation . and  the opposite  if  the opposite  way , it  also  check  for  errors and  it  correct it  .
 
 **Physical Layer :**
 
