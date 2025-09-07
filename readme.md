@@ -23,7 +23,6 @@ to build a network we nedd at least two devices and medium transmission either w
 ![wired connection](./images/wiredconnection.png)
 #### small network two devices connected via wireless signal WiFi.
 ![wireless connection](./images/wirelessconnection.png)
-![Screenshot From 2025-08-18 17-13-04.png](attachment:360ab962-f53d-46d5-a64a-e2d9b2f3c888:Screenshot_From_2025-08-18_17-13-04.png)
 
 **how  devices  communicate  with each other :**
 
@@ -62,4 +61,44 @@ to build a network we nedd at least two devices and medium transmission either w
 - flexibility .
 - less reliability .
 - slow compare to the wired one .
+</details>
+
+<details>
+
+<summary> what is  the  osi model : </summary>
+the  osi (open system  interconnection)  model  is a  set  of  rules  that explains  how  the    computer  systems  communicate  over  the  network it  was  developed  by  the ISO (international standardization organization).
+- the  osi model  provide a clear structure for data transmission .
+- make  the  management  of  network  issues easy .
+
+**the  layers  of  the  OSI (open system interconnection) :**
+
+**Application Layer :**
+```the application  layer is  the  seventh layer it  plays  as an  interface  between  the  user end user applications  and  the  network  services because  it  provides  the  protocols  like  HTTP , FTP , SMTP  that  allow  the software to send  and receive  data . facilitating activities like  web browsing  emails an file  transfer .```
+
+**Session Layer :**
+```the session  layer  is  the  fifth layer  and  it is responsible for 4 core processes 
+- select the transmission or (dialog) mode : (simplex , half duplex  , full duplex).
+- opens the canal and sets rules for it when  it ends and when it starts .
+- synchronization of  sending data (if  a connection  error occurs  it resume where it stops) .
+- session management .
+```
+**Transport Lyaer :**
+```the application  layer is  the  seventh layer it  plays  as an  interface  between  the  user end user applications  and  the  network  services because  it  provides  the  protocols  like  HTTP , FTP , SMTP  that  allow  the software to send  and receive  data . facilitating activities like  web browsing  emails an file  transfer .```
+
+**Network Layer :**
+```the  network  layer is  the third layer  it  had  two  core  jobs
+- the logical  addressing  : it  takes  the data  segment  that comes  from the  transport layer  and it  adds the  sender ip  and  the receiver  ip  and  it  build  the  packet  which  is  the network  unit .
+- the  routing  : it  decides  the  best  path that  the  data  must go trough
+```
+
+**Data Link Layer :**
+```the data link layer  is  the second  layer  in the  osi  model  it takes  the  packet  and  adds to it  the sender’s mac address and  the  receiver’s mac address and  it  builds  the  frame  and all  that  called  the  frame  encapsulation . and  the opposite  if  the opposite  way .
+
+- it  also  check  for  errors and  it  correct it  .
+```
+**Physical Layer :**
+```the  physical  layer  is  the  first  layer  of the  osi  model .
+- we  said  before  that the  transport layer  creates  the packet and  the  data link layer  creates  the  frame which  is  a bunch  of zeros and  ones so  the  physical  layer  transform  the  bits  of  the  frame  into  signals that the  transmission media  will understand. so  it will be  either  electrical  signals  (Ethernet  cable) , radio signals (wireless connection) , optic  signals  (optic  transmission) .
+```
+
 </details>
