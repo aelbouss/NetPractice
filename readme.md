@@ -12,7 +12,9 @@ netpractice is an important project that will introduce you to the word wide of 
 - what is a lac address
 - what is the default gateway
 - what is subnetting
-### what is a network :
+
+<details>
+  <summary>### what is a network :</summary>
 a network is a system of interconnected devices like computers that can connect to  each other and share data , this connection allows for information exchange and access shared rousources like (printers, files , applications), networks can range from small like home or office network to  large networks like the internet .
 #### how the devices connected to each other in a network :
 to build a network we nedd at least two devices and medium transmission either wired or wireless .
@@ -20,3 +22,4 @@ to build a network we nedd at least two devices and medium transmission either w
 ![wired connection](./images/wiredconnection.png)
 #### small network two devices connected via wireless signal WiFi.
 ![wireless connection](./images/wirelessconnection.png)
+</details>
